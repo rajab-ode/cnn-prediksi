@@ -1,0 +1,26 @@
+# Abaikan folder virtual environment
+venv/
+.venv/
+gambar
+gambar/
+./gambar
+
+
+# Abaikan file Python cache
+__pycache__/
+*.py[cod]
+
+# Abaikan file dan folder editor
+.vscode/
+.idea/
+
+# Abaikan file log dan database sementara
+*.log
+*.sqlite3
+
+# Abaikan file environment
+.env
+
+# Abaikan file sistem
+.DS_Store
+Thumbs.db
