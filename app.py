@@ -94,5 +94,6 @@ if __name__ == '__main__':
     if not os.path.exists(app.config['UPLOAD_FOLDER']):
         os.makedirs(app.config['UPLOAD_FOLDER'])
     # app.run(debug=True, port=8080)
-    port = int(os.environ.get("PORT", 8080))
-    app.run(debug=True, host="0.0.0.0", port=port)
+    # port = int(os.environ.get("PORT", 8080))
+    # app.run(debug=True, host="0.0.0.0", port=port)
+    app.run(debug=True)
