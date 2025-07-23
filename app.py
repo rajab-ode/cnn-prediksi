@@ -12,7 +12,7 @@ CORS(app) # Aktifkan CORS untuk seluruh aplikasi
 app.config['UPLOAD_FOLDER'] = 'static/uploaded'
 
 # Load model
-model = load_model('model/best_model.h5')
+model = load_model('model/model.h5')
 
 # Daftar kelas dan solusi
 class_names = ['ea', 'healthy', 'leaf curl', 'leaf spot', 'whitefly', 'yellowish', 'another_class']
